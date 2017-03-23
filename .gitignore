@@ -1,2 +1,2 @@
-.kitchen
+.kitchen*
 test/integration/spec/.kitchen/*
