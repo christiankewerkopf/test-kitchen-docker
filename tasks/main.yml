@@ -1,4 +1,4 @@
 ---
-  - include: test.yml
-    tags: ['test']
-    when: role == "test"
+  - include: centos.yml
+    tags: ['centos']
+    when: role == "centos"

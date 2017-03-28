@@ -1,7 +1,0 @@
----
-- name: provisioning
-  hosts: test-kitchen
-  vars:
-    - role: test
-  roles:
-    - { role: test, tags: test }

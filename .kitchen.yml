@@ -25,7 +25,7 @@ verifier:
   ruby_bindir: '/usr/bin'
 
 suites:
-  - name: test
+  - name: centos
     verifier:
       patterns:
-        - roles/test/test/integration/spec/test_spec.rb
+        - roles/docker-test-kitchen/test/integration/spec/centos_spec.rb

@@ -1,0 +1,7 @@
+---
+- name: provisioning
+  hosts: test-kitchen
+  vars:
+    - role: centos
+  roles:
+    - { role: docker-test-kitchen, tags: centos }
