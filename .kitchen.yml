@@ -1,12 +1,12 @@
 ---
 driver:
-  name: vagrant
+  name: docker
+  use_sudo: false
 
 platforms:
   - name: centos-7.2
-    driver_plugin: vagrant
     driver_config:
-      box: puppetlabs/centos-7.2-64-nocm
+      image: ansible/centos7-ansible:stable
 
 provisioner:
   name: ansible_playbook
