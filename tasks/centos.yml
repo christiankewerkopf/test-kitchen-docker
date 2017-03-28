@@ -1,5 +1,5 @@
 ---
-- name: Install docker
+- name: Install java
   yum:
     name:
-      - docker
+      - java
